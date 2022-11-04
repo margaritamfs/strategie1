@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">STRATEGIE</string>
+    <string name="text_username">Usuario</string>
+    <string name="usuariomail">Coloque aquí su mail</string>
+    <string name="text_password">Clave</string>
+    <string name="ingreso_password">Ingresa una clave</string>
+    <string name="txt_botoningreso">Ingresar</string>
+    <string name="txt_botonregistro">Registrarse</string>
+
+    <string name="txt_nombre">Nombre</string>
+    <string name="txt_apellido">Apellido</string>
+    <string name="txt_nitcedula">NIT o Cédula</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_telefono">Teléfono o Celular</string>
+    <string name="txt_clave">Contraseña</string>
+    <string name="txt_claverepetir">Repita contraseña</string>
+    <string name="txt_politicas">Política de privacidad</string>
+
+    <string name="txt_nombrecompleto">Su nombre completo</string>
+    <string name="txt_apellidocompleto">Sus dos apellidos</string>
+
+    <string name="txt_botonenviar">Enviar</string>
+
+    <string name="txt_nombrebienvenida">Bienvenida XXX</string>
+    <string name="txt_informacion1">Selecciona en la siguiente lista de oficios a cual te quieres postular</string>
+    <string name="txt_trabajo1">Ventas de boletas</string>
+    <string name="txt_atencioncliente">Atención al cliente</string>
+    <string name="txt_callcenter">Call Center</string>
+    <string name="txt_organizacionespacio">Ordenar espacios</string>
+
+    <string name="txt_welcome">BIENVENIDO</string>
+    <string name="txt_welcomeinvalido">Su nombre de usuario o contraseña son incorrectos</string>
+
+    <string name="txt_titulobusqueda">Buscar</string>
+    <string name="txt_preferencias">Configuración</string>
+    <string name="txt_salir">Salir</string>
+
+    <string name="txt_botonflotante">Elemento adicionado</string>
+    <string name="trabajo1Detail">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida felis eu venenatis efficitur. Duis a euismod erat. Mauris hendrerit tortor tellus, nec malesuada orci laoreet eget</string>
+
+
+</resources>

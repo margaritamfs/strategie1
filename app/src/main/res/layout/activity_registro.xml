@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/miMenu"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextColor="@color/white"
+        android:background="@color/btn_gral"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="35dp"
+        android:gravity="top"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_nombre"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:hint="@string/txt_nombrecompleto"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_nombre"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_apellido"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:hint="@string/txt_apellidocompleto"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_apellido"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_nitcedula"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:hint="@string/txt_nitcedula"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_cedula"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_email"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:hint="@string/txt_email"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_email"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_telefono"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:hint="@string/txt_telefono"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_celular"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_clave"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_clave"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_claverepetir"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="15dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:height="40dp"
+            android:background="@color/white"
+            android:textColor="@color/btn_gral"
+            android:id="@+id/stra_claver"
+            android:padding="7dp"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/boton_enviar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:onClick="iraeventos"
+            android:text="@string/txt_botonenviar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:background="@drawable/boton_redondo"/>
+
+        <CheckBox
+            android:id="@+id/checkBoxPolitica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#FFFFFF"
+            android:text="@string/txt_politicas"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16sp"
+        android:src="@android:drawable/ic_input_add"
+        app:tint="@color/white"
+        android:id="@+id/botonflotante"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
